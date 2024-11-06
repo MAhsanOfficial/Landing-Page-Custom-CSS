@@ -1,0 +1,73 @@
+/* Basic Footer Styling */
+.footer {
+    background-color: #fbbf24;
+    margin-top: 1.25rem;
+    padding: 1.25rem 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .footer-text h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-text p {
+    font-size: 0.875rem;
+    max-width: 300px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 0.5rem 0;
+  }
+  
+  .footer-links a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #c05621;
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-around;
+      text-align: left;
+    }
+  
+    .footer-text h1 {
+      font-size: 2rem;
+    }
+  
+    .footer-text p {
+      font-size: 1rem;
+      max-width: 400px;
+    }
+  
+    .footer-links ul {
+      text-align: left;
+    }
+  
+    .footer-links a {
+      font-size: 1rem;
+    }
+  }
+  
